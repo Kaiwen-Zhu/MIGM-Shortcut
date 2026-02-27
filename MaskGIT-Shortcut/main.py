@@ -99,7 +99,7 @@ if __name__ == "__main__":
     parser.add_argument('--channel',      type=int,   default=3,          help="rgb or black/white image")
     parser.add_argument("--num_workers",  type=int,   default=8,          help="number of workers")
     parser.add_argument("--step",         type=int,   default=15,         help="number of step for sampling")
-    parser.add_argument('--seed',         type=int,   default=1,          help="fix seed")
+    parser.add_argument('--seed',         type=int,   default=42,         help="fix seed")
     parser.add_argument("--epoch",        type=int,   default=300,        help="number of epoch")
     parser.add_argument('--img-size',     type=int,   default=512,        help="image size")
     parser.add_argument("--bsize",        type=int,   default=256,        help="batch size")

@@ -7,7 +7,6 @@ import json
 import argparse
 import time
 import torch
-import torch.nn as nn
 from transformers import AutoConfig, AutoTokenizer
 from pathlib import Path
 
@@ -33,7 +32,6 @@ def main(args):
     EOI = SPECIAL_TOKENS["eoi"]           # End of Image
 
     # Set Random seed
-    # if args.seed != 0:
     setup_seed(args.seed)
     
     # Create Output directory

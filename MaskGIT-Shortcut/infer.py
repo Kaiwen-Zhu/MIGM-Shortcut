@@ -53,7 +53,6 @@ def main(args):
     sched_mode = args.sched_mode  # Mode of the scheduler
 
     labels, name = [1, 7, 282, 604, 724, 179, 681, 367, 850, random.randint(0, 999)] * 1, "r_row"
-    # labels, name = [1] * 1, "r_row"
     labels = torch.LongTensor(labels).to(args.device)
 
     if args.shortcut:
