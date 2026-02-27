@@ -1,0 +1,11 @@
+{
+  "Eval/fid_conditional": 10.064527601969312,
+  "Eval/fid_conditional_mu": 1.2957284541219092,
+  "Eval/fid_conditional_sigma": 8.768799147847403,
+  "Eval/inception_score_conditional": 191.41278076171875,
+  "Eval/precision_conditional": 0.77508,
+  "Eval/recall_conditional": 0.46476000000000006,
+  "Eval/density_conditional": 1.12836,
+  "Eval/coverage_conditional": 0.8027,
+  "latency": 0.026783564498744063
+}

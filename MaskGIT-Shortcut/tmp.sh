@@ -1,0 +1,1 @@
+torchrun --nproc_per_node=4 main.py --data-folder /mnt/shared-storage-user/omnilab-share/datasets/imagenet --bsize 128 --writer-log logs --num_workers 16 --img-size 512 --resume --test-only --metric_save_dir result_metrics_tmp/shortcut --step 8
