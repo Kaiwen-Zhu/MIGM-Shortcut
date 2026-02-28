@@ -17,7 +17,7 @@
    ```bash
    bash makedata.sh
    ```
-+ Train MaskGIT-Shortcut
++ Train DiMOO-Shortcut
    ```bash
    torchrun --nproc_per_node=4 train_shortcut.py \
       --exp_name 000 --bottleneck_ratio 2 --mse_weight 1 --kl_weight 0 \
