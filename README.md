@@ -1,6 +1,6 @@
 # Accelerating Masked Image Generation by Learning Latent Controlled Dynamics
 
-<!-- [Paper]() | [Project Page]() -->
+[Paper](https://arxiv.org/abs/2602.23996) | [Project Page](https://kaiwen-zhu.github.io/research/migm-shortcut)
 
 
 ## Introduction
@@ -48,4 +48,15 @@ Other acceleration methods suffer from notable performance degradation under hig
 This repository is built upon [valeoai/MaskGIT PyTorch](https://github.com/valeoai/Halton-MaskGIT/tree/v1.0) and [Alpha-VLLM/Lumina-DiMOO](https://github.com/Alpha-VLLM/Lumina-DiMOO). Thanks for these awesome works.
 
 
-<!-- ## BibTex -->
+## BibTex
+```
+@misc{migm-shortcut,
+  title={Accelerating Masked Image Generation by Learning Latent Controlled Dynamics}, 
+  author={Kaiwen Zhu and Quansheng Zeng and Yuandong Pu and Shuo Cao and Xiaohui Li and Yi Xin and Qi Qin and Jiayang Li and Yu Qiao and Jinjin Gu and Yihao Liu},
+  year={2026},
+  eprint={2602.23996},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2602.23996}
+}
+```
