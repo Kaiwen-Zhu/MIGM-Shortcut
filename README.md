@@ -2,6 +2,11 @@
 
 [Paper](https://arxiv.org/abs/2602.23996) | [Project Page](https://kaiwen-zhu.github.io/research/migm-shortcut)
 
+<div align='center'>
+<img src="assets/conceptual.png" width="75%"/>
+<br>
+Projection from latent space to token space is lossy, so lifting from token space to latent space is heavy. Model the smooth latent evolution instead.
+</div>
 
 ## Introduction
 + In MIGMs, the trajectory of model features is often smooth.
